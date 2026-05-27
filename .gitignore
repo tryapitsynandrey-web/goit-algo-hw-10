@@ -1,0 +1,41 @@
+.agents/
+.agent/
+.antigravity/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+.DS_Store
+Thumbs.db
+data/processed/*.png
+
+# Packaging
+*.egg-info/
+src/*.egg-info/
+
+# Linting
+.ruff_cache/
+
+# Final local, cache, and generated artifact exclusions
+.env.*
+!config/.env.example
+.mypy_cache/
+.pyrefly/
+logs/
+data/processed/*.jpg
+data/processed/*.jpeg
+data/processed/*.svg
+data/processed/*.pdf
+!data/processed/.gitkeep
